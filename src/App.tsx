@@ -10,9 +10,9 @@ import LoginPage from "./routes/LoginPage";
 const App: React.FC = () => (
   <Router>
     <Switch>
-      <Route path="/" component={Homepage} />
       <Route path="/login" component={LoginPage} />
       <Route path="/account" component={LoginPage} />
+      <Route path="/" component={Homepage} />
       <Route path="*" component={NotFoundPage} />
     </Switch>
   </Router>
