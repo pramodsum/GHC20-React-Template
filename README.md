@@ -1,8 +1,10 @@
 ## Setup
 
 **Create a Repl.it account**
+
 https://repl.it/signup
-ADD INSTRUCTIONS HERE
+
+ADD MORE INSTRUCTIONS HERE
 
 **Clone the app in repl.it**
 
