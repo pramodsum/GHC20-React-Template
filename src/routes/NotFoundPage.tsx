@@ -16,7 +16,10 @@ const NotFoundPage: React.FC = () => {
       >
         <Typography variant="h3">AWKO TACO</Typography>
         <Typography variant="h6">Looks like this page doesn't exist</Typography>
-        <img src="https://media1.tenor.com/images/e051d1974d1319a134223480614ffbc8/tenor.gif?itemid=10576778" />
+        <img
+          alt="dancing-taco"
+          src="https://media1.tenor.com/images/e051d1974d1319a134223480614ffbc8/tenor.gif?itemid=10576778"
+        />
       </Box>
     </Layout>
   );
