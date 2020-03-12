@@ -18,7 +18,7 @@ const shortenString = (str: string, maxLen: number, separator = " ") => {
 
 const ToppingCard: React.FC<{ topping: Topping }> = ({ topping }) => (
   <Card
-    onClick={() => window.location.assign(`/topping/${topping.slug}`)}
+    onClick={() => window.location.assign(`/toppings/${topping.slug}`)}
     className="topping-card"
   >
     <CardContent>
