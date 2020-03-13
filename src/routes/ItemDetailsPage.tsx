@@ -1,35 +1,38 @@
 import React from "react";
-import Layout from "../components/Layout/Layout";
 import { RouteComponentProps } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import { TextField, Box, Typography, Button } from "@material-ui/core";
 
-type ToppingDetails = {
+import Layout from "../components/Layout/Layout";
+import { TACO_API_BASE, RouteParams } from "../utils/globals";
+
+type ItemDetails = {
   name: string;
   slug: string;
   recipe: string;
   url: string;
 };
 
-type RouteParams = {
-  slug: string;
-};
-
-const ToppingDetailsPage: React.FC<RouteComponentProps> = ({ match }) => {
+const ItemDetailsPage: React.FC<RouteComponentProps> = ({ match }) => {
   const { slug } = match.params as RouteParams;
-  const [toppingDetails, setToppingDetails] = React.useState<ToppingDetails>();
+  const [itemDetails, setItemDetails] = React.useState<ItemDetails>();
 
   React.useEffect(() => {
-    fetch(`http://taco-randomizer.herokuapp.com/condiments/${slug}/`)
+    fetch(`${TACO_API_BASE}/toppings/${slug}/`)
       .then(response => response.json())
-      .then(setToppingDetails);
+      .then(setItemDetails);
   }, [slug]);
 
   const [review, updateReview] = React.useState<string>();
 
   return (
     <Layout>
-      {toppingDetails && <ReactMarkdown source={toppingDetails.recipe} />}
+      {itemDetails && (
+        <>
+          <h1>{itemDetails.name}</h1>
+          <ReactMarkdown source={itemDetails.recipe} />
+        </>
+      )}
       <Box>
         <Typography variant="h6">Reviews</Typography>
         <Box display="flex" justifyContent="space-between">
@@ -37,7 +40,7 @@ const ToppingDetailsPage: React.FC<RouteComponentProps> = ({ match }) => {
             variant="outlined"
             fullWidth
             multiline
-            placeholder="Review this taco topping"
+            placeholder="Review this taco Item"
             style={{ marginRight: "10px" }}
             value={review}
             onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
@@ -61,4 +64,4 @@ const ToppingDetailsPage: React.FC<RouteComponentProps> = ({ match }) => {
   );
 };
 
-export default ToppingDetailsPage;
+export default ItemDetailsPage;
