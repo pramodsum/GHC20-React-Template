@@ -16,17 +16,19 @@ ADD MORE INSTRUCTIONS HERE
 
 ![Homepage](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-17%20at%206.35.05%20PM.png?raw=true)
 
+Think about which parts of the page are re-used. What's based on an `if` statement? 
 
-### 1. Create a `ToppingRecipePage`
+
+## Create a `ToppingRecipePage`
 
 The page should look like the following: 
 ![Topping Recipe Page Screenshot](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-17%20at%206.29.41%20PM.png?raw=true)
 
 
-**How do you break this page down into components?**
+#### 1. How do you break this page down into components?**
 
 
-### 2. Add a dynamic route to the `ToppingRecipePage`
+#### 2. Add a dynamic route to the `ToppingRecipePage`
 
 You should be able to access a topping's recipe at `tacopundit/toppings/{TOPPING_SLUG}` or as an example https://pramodsum.github.io/tacopundit/toppings/mango_avocado_salsa
 
