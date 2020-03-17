@@ -1,9 +1,36 @@
 # Grace Hopper 2020 React Workshop Template
 
-![Homepage Screenshot](https://github.com/pramodsum/GHC20-React-Template/raw/master/images/Screen%20Shot%202020-03-17%20at%206.35.05%20PM.png?raw=true)
-
 [Demo](https://pramodsum.github.io/tacopundit/)
 
+**Create a Repl.it account**
+
+https://repl.it/signup
+
+ADD MORE INSTRUCTIONS HERE
+
+**Clone the app in repl.it**
+
+[![Run on Repl.it](https://repl.it/badge/github/pramodsum/GHC20-React-Template)](https://repl.it/github/pramodsum/GHC20-React-Template)
+
+## Breaking the Homepage down into smaller components
+
+![Homepage](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-17%20at%206.35.05%20PM.png?raw=true)
+
+
+### 1. Create a `ToppingRecipePage`
+
+The page should look like the following: 
+![Topping Recipe Page Screenshot](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-17%20at%206.29.41%20PM.png?raw=true)
+
+
+**How do you break this page down into components?**
+
+
+### 2. Add a dynamic route to the `ToppingRecipePage`
+
+You should be able to access a topping's recipe at `tacopundit/toppings/{TOPPING_SLUG}` or as an example https://pramodsum.github.io/tacopundit/toppings/mango_avocado_salsa
+
+[React Router DOM Documentation](https://reacttraining.com/react-router/web/guides/primary-components)
 
 
 
