@@ -25,7 +25,7 @@ The page should look like the following:
 ![Topping Recipe Page Screenshot](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-17%20at%206.29.41%20PM.png?raw=true)
 
 
-#### 1. How do you break this page down into components?**
+#### 1. How do you break this page down into components?
 
 
 #### 2. Add a dynamic route to the `ToppingRecipePage`
