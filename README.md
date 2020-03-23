@@ -14,7 +14,7 @@ ADD MORE INSTRUCTIONS HERE
 
 ## Breaking the Homepage down into smaller components
 
-![Homepage](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-17%20at%206.35.05%20PM.png?raw=true)
+![Homepage](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-19%20at%202.16.17%20PM.png?raw=true)
 
 Think about which parts of the page are re-used. What's based on an `if` statement? 
 
@@ -22,7 +22,7 @@ Think about which parts of the page are re-used. What's based on an `if` stateme
 ## Create a `ToppingRecipePage`
 
 The page should look like the following: 
-![Topping Recipe Page Screenshot](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-17%20at%206.29.41%20PM.png?raw=true)
+![Topping Recipe Page Screenshot](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-19%20at%202.16.35%20PM.png?raw=true)
 
 
 #### 1. How do you break this page down into components?
