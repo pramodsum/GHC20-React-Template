@@ -18,6 +18,8 @@ ADD MORE INSTRUCTIONS HERE
 
 Think about which parts of the page are re-used. What's based on an `if` statement? 
 
+See the breakdown [here](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/home-component-breakdown.png?raw=true)
+
 
 ## Create a `ToppingRecipePage`
 
