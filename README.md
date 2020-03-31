@@ -4,6 +4,8 @@
 
 **Create a Repl.it account**
 
+If you have a development setup that you prefer then you can skip this step and clone the project locally.
+
 https://repl.it/signup
 
 ADD MORE INSTRUCTIONS HERE
@@ -14,7 +16,7 @@ ADD MORE INSTRUCTIONS HERE
 
 ## Breaking the Homepage down into smaller components
 
-![Homepage](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-19%20at%202.16.17%20PM.png?raw=true)
+![Homepage](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%2011.22.28%20AM.png?raw=true)
 
 Think about which parts of the page are re-used. What's based on an `if` statement? 
 
@@ -24,10 +26,12 @@ See the breakdown [here](https://github.com/pramodsum/GHC20-React-Template/blob/
 ## Create a `ToppingRecipePage`
 
 The page should look like the following: 
-![Topping Recipe Page Screenshot](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-23%20at%206.16.08%20PM.png?raw=true)
+![Topping Recipe Page Screenshot](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%2012.19.29%20PM.png?raw=true)
 
 
 #### 1. How do you break this page down into components?
+
+Take a look at the [Material UI documentation](https://material-ui.com/getting-started/usage/) to find components that you can use.
 
 
 #### 2. Add a dynamic route to the `ToppingRecipePage`
@@ -39,10 +43,16 @@ You should be able to access a topping's recipe at `tacopundit/toppings/{TOPPING
 ## Create reviews for a recipe
 
 #### 1. What do we want our users to be able to leave for a review?
-They should be able to leave stars, their name, and the actual content of their review. Take a look at the [Material UI documentation](https://material-ui.com/getting-started/usage/) to find components that you can use.
+They should be able to leave stars, their name, and the actual content of their review. 
+
+Take a look at the [Material UI documentation](https://material-ui.com/getting-started/usage/) to find components that you can use.
 
 #### 2. How should reviews that our users leave look?
-We want to display the reviews in a way that shows all the information they've entered in, ordered by when they were left. The most recent review should be at the top of your list. Take a look at [Material UI's tables](https://material-ui.com/components/tables/) for how you would represent the reviews.
+We want to display the reviews in a way that shows all the information they've entered in, ordered by when they were left. The most recent review should be at the top of your list. 
+
+![Review](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%2012.19.43%20PM.png?raw=true)
+
+Take a look at [Material UI's tables](https://material-ui.com/components/tables/) for how you would represent the reviews.
 
 #### 3. How can we persist review information to the database?
 For connection to a simple database, let's set up [Firebase](https://firebase.google.com/). You can create an account and set up a Real-Time Database for free, which you can then connect to your web app via environment variables. Follow the [setup instructions](https://firebase.google.com/docs/database/web/start).
@@ -50,6 +60,7 @@ For connection to a simple database, let's set up [Firebase](https://firebase.go
 1. Saving reviews to the database
 
    When a user clicks the submit button for a review, the data should get saved to the database under the reviews table. See the [firebase docs](https://firebase.google.com/docs/database/web/read-and-write) for the proper way to write data into your database.
+
 2. Pulling reviews from the database
    
    Once a user loads the page for a recipe, we should pull all the reviews for the recipe by the recipe name and display them in our reviews table. Use the link above to see how to read data from the database.
