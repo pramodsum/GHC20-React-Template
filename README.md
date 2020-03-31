@@ -50,8 +50,18 @@ For connection to a simple database, let's set up [Firebase](https://firebase.go
 2. Pulling reviews from the database
    
    Once a user loads the page for a recipe, we should pull all the reviews for the recipe by the recipe name and display them in our reviews table. Use the link above to see how to read data from the database.
+
 #### 4. Test your changes!
 Preferably test as you go. Create a review, check in Firebase that it exists. Click back and re-enter the page - your review should still be there.
+
+## Show off your app!
+
+```
+yarn deploy
+```
+
+This will deploy your app to your github pages! 
+The url will likely be  `https://{GITHUB_USERNAME}.github.io/{PROJECT_NAME}`
 
 ## Learn More
 
