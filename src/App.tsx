@@ -13,8 +13,8 @@ const App: React.FC = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/tacopundit" component={Homepage} />
-        <Route path="*" component={NotFoundPage} />
+        <Route exact path="/tacopundit/" component={Homepage} />
+        <Route component={NotFoundPage} />
       </Switch>
     </Router>
   );
