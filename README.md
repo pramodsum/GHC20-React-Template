@@ -30,6 +30,8 @@ If you have a local development setup that you prefer and already have a proper`
 
 ### Setting up Repl.it
 
+Repl.it is an online IDE which allows you to begin developming withouth wasting time setting up a development environment.
+
 1. Create a Repl.it account at https://repl.it/signup
 2. Create a new repl.it instance using the "Import from Github" button in the top right of the window
    ![import from github](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%201.17.17%20PM.png?raw=true)
@@ -49,6 +51,12 @@ yarn dev
 ```
 
 # Exercise 1:
+
+## Breaking the Homepage down into smaller components
+
+![Homepage](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%2011.22.28%20AM.png?raw=true)
+
+1. Think about which parts of the page are re-used. What's based on an `if` statement? See the sample breakdown [here](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/home-component-breakdown.png?raw=true)
 
 **Sample recipe response:**
 
@@ -83,14 +91,6 @@ The TacoPundit API is documented here: https://github.com/pramodsum/taco-pundit-
 ]
 
 ```
-
-## Breaking the Homepage down into smaller components
-
-![Homepage](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%2011.22.28%20AM.png?raw=true)
-
-Think about which parts of the page are re-used. What's based on an `if` statement?
-
-See the breakdown [here](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/home-component-breakdown.png?raw=true)
 
 # Exercise 2:
 
