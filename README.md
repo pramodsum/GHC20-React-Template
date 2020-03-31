@@ -1,7 +1,19 @@
 # Grace Hopper 2020 React Workshop Template
 
-[Demo](https://pramodsum.github.io/tacopundit/)
+**DEMO: [https://pramodsum.github.io/tacopundit/](https://pramodsum.github.io/tacopundit/)**
 
+**API DOCUMENTATION: [https://github.com/pramodsum/taco-pundit-api](https://github.com/pramodsum/taco-pundit-api)**
+
+### Resources
+
+Javascript ES6 Best Practices/Cheat Sheet: https://github.com/DrkSephy/es6-cheatsheet
+
+React Best Practices: 
+- https://devhints.io/react
+- https://reactcheatsheet.com/
+- https://www.freecodecamp.org/news/the-react-cheatsheet-for-2020/
+
+How to use React Hooks: https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/
 
 ## Setup
 
@@ -36,6 +48,41 @@ yarn dev
 
 # Exercise 1: 
 
+
+**Sample recipe response:**
+
+The TacoPundit API is documented here: https://github.com/pramodsum/taco-pundit-api
+
+```
+// GET https://pramodsum.github.io/taco-pundit-api/toppings
+
+[
+  {
+    "name": "Mango Avocado Salsa",
+    "url": "https://raw.github.com/sinker/tacofancy/master/condiments/mango_avocado_salsa.md",
+    "recipe": "Goes great on soft shell chicken tacos with cheese (or deep-friend wantons with scallops)!\n\n__Ingredients__\n\n* 2 Avocados\n* 2 Mangos\n* 1 Orange\n* 1 Tablespoon Honey\n* Garlic cloves (leave it up to your buds)\n* Pepper\n* 1 Lime\n\n__Directions__\n\n1. Chop avocado and mango into bowl.\n2. Squeeze the lime and half the orange in, add honey.\n3. Add garlic (chopped or pressed) and pepper to taste.\n4. Stir and enjoy!\n\ntags: vegetarian, vegan\n",
+    "slug": "mango_avocado_salsa",
+    "uuid": "2f02d742-64eb-11ea-820b-acde48001122"
+  },
+  {
+    "name": "Chipotle Sauce",
+    "url": "https://raw.github.com/sinker/tacofancy/master/condiments/chipotle_sauce.md",
+    "recipe": "__Ingredients__\n\n* 1 cup plain Greek yogurt\n* Juice from 2 limes\n* 2-3 chipotl\u00e9 peppers, with surrounding adobo sauce from can\n\n__Directions__\n\n1. Drop all of this into a food processor, and blend away.\n2. Let sit in fridge for 30 minutes or overnight for flavor melding. \n3. Add to tacos, and anything else you'd like.\n\ntags: vegetarian\n",
+    "slug": "chipotle_sauce",
+    "uuid": "2f02e476-64eb-11ea-820b-acde48001122"
+  },
+  {
+    "name": "Phoning it in Pico de Gallo",
+    "url": "https://raw.github.com/sinker/tacofancy/master/condiments/Pico_de_gallo.md",
+    "recipe": "_Super Quick & Easy Pico_\n\n\n* 1 pint grape tomatoes, quartered (make your kids do this part)\n* 3 tablespoons finely chopped white onion\n* Coarse salt\n* Squeeze of lime\n* As many finely chopped red (or green) jalape\u00f1os as you want (optional)\n\nCombine the tomatoes, cilantro and onion together in a bowl. Season to taste with salt and lime.\n\nReserve some of this mixture for kids, and then add as much jalape\u00f1o as you like to the remaining mixture for the non wimps.\n\ntags: vegetarian, vegan\n",
+    "slug": "phoning_it_in_pico_de_gallo",
+    "uuid": "2f02f222-64eb-11ea-820b-acde48001122"
+  },
+  ....
+]
+
+```
+
 ## Breaking the Homepage down into smaller components
 
 ![Homepage](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%2011.22.28%20AM.png?raw=true)
@@ -50,6 +97,21 @@ See the breakdown [here](https://github.com/pramodsum/GHC20-React-Template/blob/
 
 The page should look like the following: 
 ![Topping Recipe Page Screenshot](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%2012.19.29%20PM.png?raw=true)
+
+**Sample recipe response:**
+
+```
+// GET https://pramodsum.github.io/taco-pundit-api/toppings/mango_avocado_salsa.json
+
+{
+  "name": "Mango Avocado Salsa",
+  "url": "https://raw.github.com/sinker/tacofancy/master/condiments/mango_avocado_salsa.md",
+  "recipe": "Goes great on soft shell chicken tacos with cheese (or deep-friend wantons with scallops)!\n\n__Ingredients__\n\n* 2 Avocados\n* 2 Mangos\n* 1 Orange\n* 1 Tablespoon Honey\n* Garlic cloves (leave it up to your buds)\n* Pepper\n* 1 Lime\n\n__Directions__\n\n1. Chop avocado and mango into bowl.\n2. Squeeze the lime and half the orange in, add honey.\n3. Add garlic (chopped or pressed) and pepper to taste.\n4. Stir and enjoy!\n\ntags: vegetarian, vegan\n",
+  "slug": "mango_avocado_salsa",
+  "uuid": "2f02d742-64eb-11ea-820b-acde48001122"
+}
+
+```
 
 
 #### 1. How do you break this page down into components?
