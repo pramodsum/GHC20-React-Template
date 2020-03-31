@@ -2,17 +2,27 @@
 
 [Demo](https://pramodsum.github.io/tacopundit/)
 
-**Create a Repl.it account**
-
 If you have a development setup that you prefer then you can skip this step and clone the project locally.
 
-https://repl.it/signup
+## Setup
 
-ADD MORE INSTRUCTIONS HERE
+1. Create a Repl.it account at https://repl.it/signup
+2. Clone the app in repl.it by clicking this button [![Run on Repl.it](https://repl.it/badge/github/pramodsum/GHC20-React-Template)](https://repl.it/github/pramodsum/GHC20-React-Template)
 
-**Clone the app in repl.it**
+## Developing on the template
 
-[![Run on Repl.it](https://repl.it/badge/github/pramodsum/GHC20-React-Template)](https://repl.it/github/pramodsum/GHC20-React-Template)
+If this is your first time running the app, run the following command
+```
+yarn install
+```
+
+To start the app, run the following commands
+
+```
+yarn dev
+```
+
+# Exercise 1: 
 
 ## Breaking the Homepage down into smaller components
 
@@ -22,6 +32,7 @@ Think about which parts of the page are re-used. What's based on an `if` stateme
 
 See the breakdown [here](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/home-component-breakdown.png?raw=true)
 
+# Exercise 2: 
 
 ## Create a `ToppingRecipePage`
 
@@ -39,6 +50,8 @@ Take a look at the [Material UI documentation](https://material-ui.com/getting-s
 You should be able to access a topping's recipe at `tacopundit/toppings/{TOPPING_SLUG}` or as an example https://pramodsum.github.io/tacopundit/toppings/mango_avocado_salsa
 
 [React Router DOM Documentation](https://reacttraining.com/react-router/web/guides/primary-components)
+
+# Exercise 3: 
 
 ## Create reviews for a recipe
 
