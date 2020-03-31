@@ -1,8 +1,8 @@
 # Grace Hopper 2020 React Workshop Template
 
-**DEMO: [https://pramodsum.github.io/tacopundit/](https://pramodsum.github.io/tacopundit/)**
+**DEMO: https://pramodsum.github.io/tacopundit/**
 
-**API DOCUMENTATION: [https://github.com/pramodsum/taco-pundit-api](https://github.com/pramodsum/taco-pundit-api)**
+**API DOCUMENTATION: https://github.com/pramodsum/taco-pundit-api**
 
 ### Resources
 
