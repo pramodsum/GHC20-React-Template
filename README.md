@@ -121,7 +121,7 @@ Take a look at the [Material UI documentation](https://material-ui.com/getting-s
 
 #### 2. Add a dynamic route to the `ToppingRecipePage`
 
-You should be able to access a topping's recipe at `tacopundit/toppings/{TOPPING_SLUG}` or as an example https://pramodsum.github.io/tacopundit/toppings/mango_avocado_salsa
+You should be able to access a topping's recipe at `tacopundit/toppings/{TOPPING_SLUG}` or as an example https://pramodsum.github.io/tacopundit/mango_avocado_salsa
 
 [React Router DOM Documentation](https://reacttraining.com/react-router/web/guides/primary-components)
 
