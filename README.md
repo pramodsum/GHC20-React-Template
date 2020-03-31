@@ -70,7 +70,7 @@ yarn deploy
 ```
 
 This will deploy your app to your github pages! 
-The url will likely be  `https://{GITHUB_USERNAME}.github.io/{PROJECT_NAME}`
+The url will likely be  `https://{GITHUB_USERNAME}.github.io/tacopundit`
 
 ## Learn More
 
