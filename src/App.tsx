@@ -11,9 +11,9 @@ const App: React.FC = () => {
   initializeFirebase();
 
   return (
-    <Router basename="/tacopundit">
+    <Router>
       <Switch>
-        <Route exact path="/" component={Homepage} />
+        <Route exact path="/tacopundit" component={Homepage} />
         <Route path="*" component={NotFoundPage} />
       </Switch>
     </Router>
