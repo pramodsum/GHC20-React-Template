@@ -36,11 +36,14 @@ You should be able to access a topping's recipe at `tacopundit/toppings/{TOPPING
 
 [React Router DOM Documentation](https://reacttraining.com/react-router/web/guides/primary-components)
 
-### Create reviews for a recipe
+## Create reviews for a recipe
+
 #### 1. What do we want our users to be able to leave for a review?
 They should be able to leave stars, their name, and the actual content of their review. Take a look at the [Material UI documentation](https://material-ui.com/getting-started/usage/) to find components that you can use.
+
 #### 2. How should reviews that our users leave look?
 We want to display the reviews in a way that shows all the information they've entered in, ordered by when they were left. The most recent review should be at the top of your list. Take a look at [Material UI's tables](https://material-ui.com/components/tables/) for how you would represent the reviews.
+
 #### 3. How can we persist review information to the database?
 For connection to a simple database, let's set up [Firebase](https://firebase.google.com/). You can create an account and set up a Real-Time Database for free, which you can then connect to your web app via environment variables. Follow the [setup instructions](https://firebase.google.com/docs/database/web/start).
 
@@ -50,8 +53,18 @@ For connection to a simple database, let's set up [Firebase](https://firebase.go
 2. Pulling reviews from the database
    
    Once a user loads the page for a recipe, we should pull all the reviews for the recipe by the recipe name and display them in our reviews table. Use the link above to see how to read data from the database.
+
 #### 4. Test your changes!
 Preferably test as you go. Create a review, check in Firebase that it exists. Click back and re-enter the page - your review should still be there.
+
+## Show off your app!
+
+```
+yarn deploy
+```
+
+This will deploy your app to your github pages! 
+The url will likely be  `https://{GITHUB_USERNAME}.github.io/{PROJECT_NAME}`
 
 ## Learn More
 
