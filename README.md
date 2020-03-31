@@ -59,6 +59,12 @@ Preferably test as you go. Create a review, check in Firebase that it exists. Cl
 
 ## Show off your app!
 
+Update the following line in your `package.json` to use your github username
+```
+  "homepage": "http://{GITHUB_USERNAME}.github.io/tacopundit",
+```
+
+Then run: 
 ```
 yarn deploy
 ```
