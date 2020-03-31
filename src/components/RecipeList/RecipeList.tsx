@@ -5,11 +5,11 @@ import "./RecipeList.css";
 import RecipeCard from "../RecipeCard/RecipeCard";
 import { Recipe } from "../../utils/types";
 
-const RecipeList: React.FC<{ items: Array<Recipe> }> = ({ items }) => {
+const RecipeList: React.FC<{ recipes: Array<Recipe> }> = ({ recipes }) => {
   return (
-    <List className="items-list">
-      {items.map(item => (
-        <RecipeCard item={item} />
+    <List className="recipes-list">
+      {recipes.map(recipe => (
+        <RecipeCard recipe={recipe} />
       ))}
     </List>
   );

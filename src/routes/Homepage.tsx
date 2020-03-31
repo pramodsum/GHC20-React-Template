@@ -8,7 +8,7 @@ import { Recipe } from "../utils/types";
 import { TACO_API_BASE } from "../utils/globals";
 
 const RecipePage: React.FC = () => {
-  const [items, setRecipe] = React.useState<Array<Recipe>>([]);
+  const [recipes, setRecipe] = React.useState<Array<Recipe>>([]);
 
   React.useEffect(() => {
     fetch(`${TACO_API_BASE}/toppings`)
@@ -18,7 +18,7 @@ const RecipePage: React.FC = () => {
 
   return (
     <Layout>
-      <RecipeList items={items} />
+      <RecipeList recipes={recipes} />
     </Layout>
   );
 };
