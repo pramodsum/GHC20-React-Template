@@ -11,7 +11,6 @@ import {
 } from "@material-ui/core";
 
 import { Review } from "../../utils/types";
-import ReviewItem from "../Review/Review";
 import "./ReviewList.css";
 
 type IProps = {
@@ -38,7 +37,7 @@ const ReviewsList: React.FC<IProps> = ({ reviews }) => (
         <TableBody>
           {reviews &&
             reviews.map((review: Review) => (
-              <ReviewItem key={review.commenterName} {...review} />
+              <pre>{JSON.stringify(review, null, 2)}</pre>
             ))}
         </TableBody>
       </Table>
