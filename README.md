@@ -2,12 +2,24 @@
 
 [Demo](https://pramodsum.github.io/tacopundit/)
 
-If you have a development setup that you prefer then you can skip this step and clone the project locally.
 
 ## Setup
 
+Make sure you have a github account before starting. Otherwise sign up for free here! https://github.com/
+
+### Cloning the project template
+
+1. Click the "Use this template" button in the template repository on Github 
+![Use this template](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%201.14.06%20PM.png?raw=true)
+2. Create a public repository called "tacopundit" ![create repo](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%201.16.04%20PM.png?raw=true)
+
+If you have a local development setup that you prefer and already have a proper`node.js` and `git` environment, then you can skip this step and simply clone your tacopundit repository locally onto your machine.
+
+### Setting up Repl.it
+
 1. Create a Repl.it account at https://repl.it/signup
-2. Clone the app in repl.it by clicking this button [![Run on Repl.it](https://repl.it/badge/github/pramodsum/GHC20-React-Template)](https://repl.it/github/pramodsum/GHC20-React-Template)
+2. Create a new repl.it instance using the "Import from Github" button in the top right of the window
+![import from github](https://github.com/pramodsum/GHC20-React-Template/blob/master/images/Screen%20Shot%202020-03-31%20at%201.17.17%20PM.png?raw=true)
 
 ## Developing on the template
 
