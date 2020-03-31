@@ -2,7 +2,7 @@
   "name": "tacopundit",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://USER_NAME.github.io/tacopundit",
+  "homepage": "http://{GITHUB_USERNAME}.github.io/tacopundit",
   "dependencies": {
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
